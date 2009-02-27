@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>test1_real_name</string>
+		<key>maxBytesPerJob</key>
+		<integer>10000000</integer>
+		<key>maxFailuresPerTask</key>
+		<integer>0</integer>
+		<key>maxPendingJobs</key>
+		<integer>5</integer>
+		<key>maxSubmissionsPerTask</key>
+		<integer>1</integer>
+		<key>maxSubmittedTasks</key>
+		<integer>10000</integer>
+		<key>maxSubmittingJobs</key>
+		<integer>1</integer>
+		<key>minSuccessesPerTask</key>
+		<integer>1</integer>
+		<key>shouldDeleteJobsAutomatically</key>
+		<true/>
+		<key>tasksPerJob</key>
+		<integer>1</integer>
+		<key>dataSource.maxTasksPerFolder</key>
+		<integer>1000</integer>
+		<key>dataSource.validator.failureIfStdoutNonEmpty</key>
+		<false/>
+		<key>dataSource.validator.failureIfStdoutEmpty</key>
+		<false/>
+		<key>dataSource.validator.failureIfStderrNonEmpty</key>
+		<false/>
+		<key>dataSource.validator.failureIfStderrEmpty</key>
+		<false/>
+		<key>dataSource.validator.failureIfOneFileEmpty</key>
+		<false/>
+		<key>dataSource.validator.failureIfNothing</key>
+		<true/>
+		<key>dataSource.validator.failureIfNoFile</key>
+		<false/>
+		<key>dataSource.validator.failureIfAllFilesEmpty</key>
+		<false/>
+	</dict>
+</plist>

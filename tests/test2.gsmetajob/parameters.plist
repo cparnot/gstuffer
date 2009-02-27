@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>test2_real_name</string>
+		<key>maxFailuresPerTask</key>
+		<integer>0</integer>
+		<key>maxPendingJobs</key>
+		<integer>5</integer>
+		<key>maxSubmissionsPerTask</key>
+		<integer>1</integer>
+		<key>maxSubmittedTasks</key>
+		<integer>10000</integer>
+		<key>minSuccessesPerTask</key>
+		<integer>1</integer>
+		<key>tasksPerJob</key>
+		<integer>1</integer>
+	</dict>
+</plist>

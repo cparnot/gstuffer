@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProcessDurationTimeInterval</key>
+	<integer>3600</integer>
+	<key>MetajobsPollingTimeInterval</key>
+	<real>600</real>
+	<key>MetajobsDirectory</key>
+	<string>~/Library/Application Support/gstuffer/metajobs</string>
+	<key>GStufferVerboseLevel</key>
+	<string>0</string>
+	<key>AutosaveIntervalInSeconds</key>
+	<string>60</string>
+	<key>MaxFileDownloads</key>
+	<string>10</string>
+	<key>DebugLogVerboseLevel</key>
+	<string>20</string>
+	<key>DebugIdentifiers</key>
+	<array>
+		<string>GEZServer</string>
+		<string>GEZServerHook</string>
+	</array>
+	<key>NoDebugIdentifiers</key>
+	<array>
+		<string>GEZProxy</string>
+		<string>GEZGrid</string>
+		<string>GEZManager</string>
+		<string>GEZMetaJob</string>
+		<string>GEZJob</string>
+		<string>GridStufferAppDelegate</string>
+		<string>XGSTaskSource</string>
+		<string>GEZXgridPanelController</string>
+	</array>
+</dict>
+</plist>

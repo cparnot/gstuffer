@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'gstuffer' target in the 'gstuffer' project
+//
+
+#ifdef __OBJC__
+
+#import <Cocoa/Cocoa.h>
+#import <XgridFoundation/XgridFoundation.h>
+#import <GridEZ/GridEZ.h>
+
+//this will create real code only if preprocessor macro DEBUG is set (-D option in Build settings)
+#import "DebugLog.h"
+
+#endif

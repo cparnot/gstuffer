@@ -1,0 +1,4 @@
+/bin/echo 'hello'
+/bin/echo 'hello1'
+/bin/echo 'hello2'
+/bin/echo 'hello3'

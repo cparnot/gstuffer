@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562122810E345943008EEC39 /* gstufferFactoryDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 562122800E345943008EEC39 /* gstufferFactoryDefaults.plist */; };
+		562122830E34599E008EEC39 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122770E345928008EEC39 /* DebugLog.m */; };
+		562122860E3459A3008EEC39 /* GSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621225D0E345928008EEC39 /* GSLog.m */; };
+		562122870E3459A4008EEC39 /* GSMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621225F0E345928008EEC39 /* GSMain.m */; };
+		562122880E3459A5008EEC39 /* GSMetajobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122630E345928008EEC39 /* GSMetajobs.m */; };
+		562122890E3459A6008EEC39 /* GSServers.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122610E345928008EEC39 /* GSServers.m */; };
+		5621228A0E3459AA008EEC39 /* gstuffer-cli-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621225B0E345928008EEC39 /* gstuffer-cli-main.m */; };
+		5621228B0E3459AC008EEC39 /* XGSCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122790E345928008EEC39 /* XGSCategories.m */; };
+		5621228C0E3459AD008EEC39 /* XGSInputInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621226C0E345928008EEC39 /* XGSInputInterface.m */; };
+		5621228F0E3459B0008EEC39 /* XGSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122740E345928008EEC39 /* XGSParser.m */; };
+		562122900E3459B0008EEC39 /* XGSOutputInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122720E345928008EEC39 /* XGSOutputInterface.m */; };
+		562122910E3459B3008EEC39 /* XGSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621227D0E345928008EEC39 /* XGSPathUtilities.m */; };
+		562122930E3459B9008EEC39 /* XGSTaskSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621226E0E345928008EEC39 /* XGSTaskSource.m */; };
+		562122940E3459B9008EEC39 /* XGSValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 562122700E345928008EEC39 /* XGSValidator.m */; };
+		562122A30E345A1E008EEC39 /* GridEZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562122A20E345A1E008EEC39 /* GridEZ.framework */; };
+		562122E10E35738D008EEC39 /* GridEZ.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 562122A20E345A1E008EEC39 /* GridEZ.framework */; };
+		562122E40E3573AC008EEC39 /* XgridFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562122E30E3573AC008EEC39 /* XgridFoundation.framework */; };
+		562124AA0E3BD28A008EEC39 /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 562124A80E3BD28A008EEC39 /* tests */; };
+		5621252A0E3C5840008EEC39 /* GSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 562125290E3C5840008EEC39 /* GSUserDefaults.m */; };
+		770B37ED0679A11B001EADE2 /* gstuffer_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* gstuffer_DataModel.xcdatamodel */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		562122F20E3573AC008EEC39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				562122E10E35738D008EEC39 /* GridEZ.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* gstuffer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gstuffer_Prefix.pch; sourceTree = "<group>"; };
+		5621225B0E345928008EEC39 /* gstuffer-cli-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gstuffer-cli-main.m"; sourceTree = "<group>"; };
+		5621225C0E345928008EEC39 /* GSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLog.h; sourceTree = "<group>"; };
+		5621225D0E345928008EEC39 /* GSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLog.m; sourceTree = "<group>"; };
+		5621225E0E345928008EEC39 /* GSMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMain.h; sourceTree = "<group>"; };
+		5621225F0E345928008EEC39 /* GSMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMain.m; sourceTree = "<group>"; };
+		562122600E345928008EEC39 /* GSServers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSServers.h; sourceTree = "<group>"; };
+		562122610E345928008EEC39 /* GSServers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSServers.m; sourceTree = "<group>"; };
+		562122620E345928008EEC39 /* GSMetajobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMetajobs.h; sourceTree = "<group>"; };
+		562122630E345928008EEC39 /* GSMetajobs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMetajobs.m; sourceTree = "<group>"; };
+		5621226B0E345928008EEC39 /* XGSInputInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSInputInterface.h; sourceTree = "<group>"; };
+		5621226C0E345928008EEC39 /* XGSInputInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSInputInterface.m; sourceTree = "<group>"; };
+		5621226D0E345928008EEC39 /* XGSTaskSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSTaskSource.h; sourceTree = "<group>"; };
+		5621226E0E345928008EEC39 /* XGSTaskSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSTaskSource.m; sourceTree = "<group>"; };
+		5621226F0E345928008EEC39 /* XGSValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSValidator.h; sourceTree = "<group>"; };
+		562122700E345928008EEC39 /* XGSValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSValidator.m; sourceTree = "<group>"; };
+		562122710E345928008EEC39 /* XGSOutputInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSOutputInterface.h; sourceTree = "<group>"; };
+		562122720E345928008EEC39 /* XGSOutputInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSOutputInterface.m; sourceTree = "<group>"; };
+		562122730E345928008EEC39 /* XGSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSParser.h; sourceTree = "<group>"; };
+		562122740E345928008EEC39 /* XGSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSParser.m; sourceTree = "<group>"; };
+		562122760E345928008EEC39 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		562122770E345928008EEC39 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
+		562122780E345928008EEC39 /* XGSCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSCategories.h; sourceTree = "<group>"; };
+		562122790E345928008EEC39 /* XGSCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSCategories.m; sourceTree = "<group>"; };
+		5621227C0E345928008EEC39 /* XGSPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSPathUtilities.h; sourceTree = "<group>"; };
+		5621227D0E345928008EEC39 /* XGSPathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSPathUtilities.m; sourceTree = "<group>"; };
+		562122800E345943008EEC39 /* gstufferFactoryDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gstufferFactoryDefaults.plist; sourceTree = "<group>"; };
+		562122A20E345A1E008EEC39 /* GridEZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GridEZ.framework; path = ../../../../Xcode/Products/Release/GridEZ.framework; sourceTree = SOURCE_ROOT; };
+		562122E30E3573AC008EEC39 /* XgridFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XgridFoundation.framework; path = /System/Library/Frameworks/XgridFoundation.framework; sourceTree = "<absolute>"; };
+		562124A80E3BD28A008EEC39 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		562125280E3C5840008EEC39 /* GSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserDefaults.h; sourceTree = "<group>"; };
+		562125290E3C5840008EEC39 /* GSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserDefaults.m; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* gstuffer_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = gstuffer_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* gstuffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gstuffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				562122A30E345A1E008EEC39 /* GridEZ.framework in Frameworks */,
+				562122E40E3573AC008EEC39 /* XgridFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562122A20E345A1E008EEC39 /* GridEZ.framework */,
+				562122E30E3573AC008EEC39 /* XgridFoundation.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* gstuffer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* gstuffer */ = {
+			isa = PBXGroup;
+			children = (
+				562122590E345928008EEC39 /* Main */,
+				562122750E345928008EEC39 /* Utilities */,
+				5621226A0E345928008EEC39 /* Core Data */,
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = gstuffer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				562124A80E3BD28A008EEC39 /* tests */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				562122800E345943008EEC39 /* gstufferFactoryDefaults.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		562122590E345928008EEC39 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* gstuffer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				5621225B0E345928008EEC39 /* gstuffer-cli-main.m */,
+				5621225C0E345928008EEC39 /* GSLog.h */,
+				5621225D0E345928008EEC39 /* GSLog.m */,
+				562125280E3C5840008EEC39 /* GSUserDefaults.h */,
+				562125290E3C5840008EEC39 /* GSUserDefaults.m */,
+				5621225E0E345928008EEC39 /* GSMain.h */,
+				5621225F0E345928008EEC39 /* GSMain.m */,
+				562122600E345928008EEC39 /* GSServers.h */,
+				562122610E345928008EEC39 /* GSServers.m */,
+				562122620E345928008EEC39 /* GSMetajobs.h */,
+				562122630E345928008EEC39 /* GSMetajobs.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5621226A0E345928008EEC39 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* gstuffer_DataModel.xcdatamodel */,
+				5621226B0E345928008EEC39 /* XGSInputInterface.h */,
+				5621226C0E345928008EEC39 /* XGSInputInterface.m */,
+				5621226D0E345928008EEC39 /* XGSTaskSource.h */,
+				5621226E0E345928008EEC39 /* XGSTaskSource.m */,
+				5621226F0E345928008EEC39 /* XGSValidator.h */,
+				562122700E345928008EEC39 /* XGSValidator.m */,
+				562122710E345928008EEC39 /* XGSOutputInterface.h */,
+				562122720E345928008EEC39 /* XGSOutputInterface.m */,
+				562122730E345928008EEC39 /* XGSParser.h */,
+				562122740E345928008EEC39 /* XGSParser.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		562122750E345928008EEC39 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				562122760E345928008EEC39 /* DebugLog.h */,
+				562122770E345928008EEC39 /* DebugLog.m */,
+				562122780E345928008EEC39 /* XGSCategories.h */,
+				562122790E345928008EEC39 /* XGSCategories.m */,
+				5621227C0E345928008EEC39 /* XGSPathUtilities.h */,
+				5621227D0E345928008EEC39 /* XGSPathUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* gstuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "gstuffer" */;
+			buildPhases = (
+				562122F20E3573AC008EEC39 /* CopyFiles */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gstuffer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = gstuffer;
+			productReference = 8D1107320486CEB800E47090 /* gstuffer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "gstuffer" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* gstuffer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* gstuffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				562122810E345943008EEC39 /* gstufferFactoryDefaults.plist in Resources */,
+				562124AA0E3BD28A008EEC39 /* tests in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				770B37ED0679A11B001EADE2 /* gstuffer_DataModel.xcdatamodel in Sources */,
+				562122830E34599E008EEC39 /* DebugLog.m in Sources */,
+				562122860E3459A3008EEC39 /* GSLog.m in Sources */,
+				562122870E3459A4008EEC39 /* GSMain.m in Sources */,
+				562122880E3459A5008EEC39 /* GSMetajobs.m in Sources */,
+				562122890E3459A6008EEC39 /* GSServers.m in Sources */,
+				5621228A0E3459AA008EEC39 /* gstuffer-cli-main.m in Sources */,
+				5621228B0E3459AC008EEC39 /* XGSCategories.m in Sources */,
+				5621228C0E3459AD008EEC39 /* XGSInputInterface.m in Sources */,
+				5621228F0E3459B0008EEC39 /* XGSParser.m in Sources */,
+				562122900E3459B0008EEC39 /* XGSOutputInterface.m in Sources */,
+				562122910E3459B3008EEC39 /* XGSPathUtilities.m in Sources */,
+				562122930E3459B9008EEC39 /* XGSTaskSource.m in Sources */,
+				562122940E3459B9008EEC39 /* XGSValidator.m in Sources */,
+				5621252A0E3C5840008EEC39 /* GSUserDefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Xcode/Products/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = gstuffer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = gstuffer;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Xcode/Products/Release\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = gstuffer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = gstuffer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "gstuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "gstuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
