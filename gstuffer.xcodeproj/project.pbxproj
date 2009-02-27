@@ -80,7 +80,7 @@
 		5621227C0E345928008EEC39 /* XGSPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSPathUtilities.h; sourceTree = "<group>"; };
 		5621227D0E345928008EEC39 /* XGSPathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGSPathUtilities.m; sourceTree = "<group>"; };
 		562122800E345943008EEC39 /* gstufferFactoryDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gstufferFactoryDefaults.plist; sourceTree = "<group>"; };
-		562122A20E345A1E008EEC39 /* GridEZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GridEZ.framework; path = ../../../../Xcode/Products/Release/GridEZ.framework; sourceTree = SOURCE_ROOT; };
+		562122A20E345A1E008EEC39 /* GridEZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GridEZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		562122E30E3573AC008EEC39 /* XgridFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XgridFoundation.framework; path = /System/Library/Frameworks/XgridFoundation.framework; sourceTree = "<absolute>"; };
 		562124A80E3BD28A008EEC39 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
 		562125280E3C5840008EEC39 /* GSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserDefaults.h; sourceTree = "<group>"; };
